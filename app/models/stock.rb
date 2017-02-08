@@ -1,5 +1,8 @@
 class Stock < ActiveRecord::Base
   
+  has_many :user_stocks
+  has_many :users, through: :user_stocks
+  
   #-----------------------------------------------------------------------------------------------
   # Find method that returns the first record in our stocks table matching the given ticker symbol.
   #-----------------------------------------------------------------------------------------------
