@@ -45,6 +45,7 @@ gem 'devise-bootstrap-views'
 #-----------------------------------------------------
 
 gem 'devise'
+gem 'stock_quote'
 
 #-----------------------------------------------------
 #                 ENVIRONMENT GEMS
